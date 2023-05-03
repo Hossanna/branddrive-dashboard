@@ -3,9 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyle = makeStyles({
     pic: {
-        width: '160%',
+        width: '140%',
         height: 270,
-        margin: '2%',
+        margin: '10% 0',
         borderRadius: 10,
         border: '1px dashed #80808047',
         backgroundImage: "url(/pic.png)",
@@ -13,10 +13,13 @@ export const useStyle = makeStyles({
         backgroundRepeat: 'no-repeat',
     },
     profit: {
-        width: '155%',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        width: '120%',
         height: 140,
-        margin: '2%',
-        padding: '2%',
+        margin: '0',
+        padding: '10%',
         textAlign: 'left',
         color: '#1565c0',
         borderRadius: '2px',
@@ -47,10 +50,13 @@ export const useStyle = makeStyles({
         
     },
     expense: {
-        width: '155%',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        width: '120%',
         height: 205,
-        margin: '2%',
-        padding: '2%',
+        marginTop: '10%',
+        padding: '10%',
         textAlign: 'left',
         color: '#1565c0',
         borderRadius: '2px',
@@ -70,14 +76,29 @@ export const useStyle = makeStyles({
     flex: {
         display: 'flex',
         justifyContent: 'space-between',
-        marginBottom: '1%',
+        marginBottom: '5%',
     },
     money: {
         fontSize: '.85em  !important',
         fontWeight: '600 !important',
+        display: 'flex',
+        width: '65%',
+    },
+    dash: {
+        marginLeft: '8% !important',
+    },
+    dashh: {
+        marginLeft: '8% !important',
+    },
+    dashhh: {
+        marginLeft: '16% !important',
     },
     text: {
-        fontSize: '.85em !important',
+        fontSize: '.8em !important',
+        marginLeft: '2% !important',
+        textAlign: 'right',
+        width: '55%',
+
     },
    
 

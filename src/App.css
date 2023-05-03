@@ -7,10 +7,10 @@
 .flex{
   display: flex;
 }
-/* .flex-column{
+.flex-column{
   display: flex;
   flex-direction: column;
-} */
+}
 
 img{
   display: block;
