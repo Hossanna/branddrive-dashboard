@@ -60,7 +60,7 @@ export default function RightSide() {
                                                     Payroll
                                             </Typography>
                                         </Box>
-                                        <Box className={classes.flex}>
+                                        <Box className={classes.flexx}>
                                             <Typography className={classes.money}>
                                                     N500,000.00
                                             <Typography className={classes.dashhh}>------</Typography>

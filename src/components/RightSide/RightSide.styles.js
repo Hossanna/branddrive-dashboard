@@ -78,6 +78,10 @@ export const useStyle = makeStyles({
         justifyContent: 'space-between',
         marginBottom: '5%',
     },
+    flexx: {
+        display: 'flex',
+        justifyContent: 'space-between',
+    },
     money: {
         fontSize: '.85em  !important',
         fontWeight: '600 !important',
