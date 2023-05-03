@@ -1,7 +1,7 @@
 import './App.css';
-import Sidebar from './components/Sidebar'
-import Middle from './components/Middle'
-import RightSide from './components/RightSide'
+import Sidebar from './components/Sidebar/Sidebar'
+import Middle from './components/Middle/Middle'
+import RightSide from './components/RightSide/RightSide'
 
 function App() {
   return (
