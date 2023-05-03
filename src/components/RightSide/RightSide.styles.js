@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export const useStyle = makeStyles({
     pic: {
         width: '160%',
-        height: 260,
+        height: 270,
         margin: '2%',
         borderRadius: 10,
         border: '1px dashed #80808047',
