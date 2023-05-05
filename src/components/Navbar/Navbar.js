@@ -21,7 +21,7 @@ export default function BasicList() {
             <Divider />
             <Box className={classes.flex}>
               {firstLogo.map(item => (
-                <img className={classes.icons} src={item?.one} alt={firstLogo.name} />
+                <img className={classes.icons} src={item?.one} alt={item?.one} />
               ))}
               <Typography className={classes.smallBox}>Dashboard</Typography>
             </Box>

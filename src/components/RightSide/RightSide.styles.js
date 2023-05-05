@@ -12,7 +12,7 @@ export const useStyle = makeStyles({
         height: 250,
         margin: '10% 0',
         borderRadius: 10,
-        border: '1px dashed #80808047',
+        border: '1px solid transparent',
         backgroundImage: "url(/pic.png)",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -24,7 +24,7 @@ export const useStyle = makeStyles({
         width: '110%',
         height: 140,
         margin: '0',
-        padding: '10%',
+        padding: '8%',
         textAlign: 'left',
         color: '#1565c0',
         borderRadius: '2px',
@@ -61,7 +61,7 @@ export const useStyle = makeStyles({
         width: '110%',
         height: 205,
         marginTop: '10%',
-        padding: '10%',
+        padding: '8%',
         textAlign: 'left',
         color: '#1565c0',
         borderRadius: '2px',
@@ -94,13 +94,13 @@ export const useStyle = makeStyles({
         width: '65%',
     },
     dash: {
-        marginLeft: '8% !important',
+        marginLeft: '7% !important',
     },
     dashh: {
-        marginLeft: '8% !important',
+        marginLeft: '7% !important',
     },
     dashhh: {
-        marginLeft: '16% !important',
+        marginLeft: '15% !important',
     },
     text: {
         fontSize: '.7em !important',
