@@ -7,7 +7,7 @@ import { useStyle } from './Middle.styles'
 export default function Middle() {
   const classes = useStyle();
   return (
-    <Box>
+    <Box className={classes.middle}>
         
         <Box className="flex">
             <Box className={classes.lagos}>
@@ -113,7 +113,7 @@ export default function Middle() {
 
         
 
-        <Box className="flex"> 
+        <Box className={classes.flex}> 
                 <Box className={classes.revenue}>
                     <Typography className={classes.revenueTyp}>
                             Revenue Goal

@@ -7,7 +7,7 @@ import { useStyle } from './RightSide.styles'
 export default function RightSide() {
     const classes = useStyle();
     return (
-            <Box>
+            <Box className={classes.RightSide}>
 
                 <Box className="flex-column"> 
                                 <Box className={classes.pic} />
@@ -45,7 +45,7 @@ export default function RightSide() {
                                         <Box className={classes.flex}>
                                             <Typography className={classes.money}>
                                                     N2,000,000.00
-                                            <Typography className={classes.dash}>------</Typography>
+                                            <Typography className={classes.dash}>-----</Typography>
                                             </Typography>
                                             <Typography className={classes.text}>
                                                     Subcontracting
@@ -54,7 +54,7 @@ export default function RightSide() {
                                         <Box className={classes.flex}>
                                             <Typography className={classes.money}>
                                                     N1,000,000.00
-                                            <Typography className={classes.dashh}>------</Typography>
+                                            <Typography className={classes.dashh}>-----</Typography>
                                             </Typography>
                                             <Typography className={classes.text}>
                                                     Payroll
@@ -63,7 +63,7 @@ export default function RightSide() {
                                         <Box className={classes.flexx}>
                                             <Typography className={classes.money}>
                                                     N500,000.00
-                                            <Typography className={classes.dashhh}>------</Typography>
+                                            <Typography className={classes.dashhh}>-----</Typography>
                                             </Typography>
                                             <Typography className={classes.text}>
                                                     Travel Expenses

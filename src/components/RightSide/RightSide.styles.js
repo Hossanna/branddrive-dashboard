@@ -2,9 +2,14 @@ import { makeStyles } from "@material-ui/core/styles";
 
 
 export const useStyle = makeStyles({
+    RightSide:{
+        maxWidth: '20vw',
+        width: '70%',
+        padding: '2%',
+    },
     pic: {
-        width: '140%',
-        height: 270,
+        width: '130%',
+        height: 250,
         margin: '10% 0',
         borderRadius: 10,
         border: '1px dashed #80808047',
@@ -16,7 +21,7 @@ export const useStyle = makeStyles({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-        width: '120%',
+        width: '110%',
         height: 140,
         margin: '0',
         padding: '10%',
@@ -53,7 +58,7 @@ export const useStyle = makeStyles({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-        width: '120%',
+        width: '110%',
         height: 205,
         marginTop: '10%',
         padding: '10%',
@@ -98,7 +103,7 @@ export const useStyle = makeStyles({
         marginLeft: '16% !important',
     },
     text: {
-        fontSize: '.8em !important',
+        fontSize: '.7em !important',
         marginLeft: '2% !important',
         textAlign: 'right',
         width: '55%',

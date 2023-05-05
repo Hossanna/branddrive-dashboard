@@ -2,6 +2,12 @@ import { makeStyles } from "@material-ui/core/styles";
 
 
 export const useStyle = makeStyles({
+    middle: {
+        maxWidth: '50vw',
+        width: '100%',
+        padding: '2%',
+        paddingRight: 0,
+    },
     lagos: {
         width: 160,
         height: 25,
@@ -59,7 +65,7 @@ export const useStyle = makeStyles({
                     
     },
     moneyBox:{
-        width: 340,
+        width: '55%',
         height: 120,
         margin: '1%',
         padding: '1% 2%',
@@ -128,12 +134,17 @@ export const useStyle = makeStyles({
         backgroundColor: 'white',
         color: '#1565c0',
     },
+    flex:{
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'space-between',
+    },
     bankNo:{
         fontSize: '1.4em !important',
         fontWeight: '600 !important',
     },
     revenue:{ 
-        width: '37.5%',
+        width: '40%',
         height: 50,
         margin: '1%',
         padding: '2%',
@@ -151,7 +162,7 @@ export const useStyle = makeStyles({
         fontWeight: '600 !important',
     },
     chart:{
-        width: '575px',
+        width: '99%',
         height: 370,
         margin: '1%',
         borderRadius: '2px',
@@ -161,9 +172,10 @@ export const useStyle = makeStyles({
     },
     branddrive:{
         display: 'flex',
-        width: '47%',
+        width: '50%',
         height: 50,
         margin: '1%',
+        marginRight: 0,
         padding: '4% 2% 0%',
         borderRadius: '2px',
         textAlign: 'left',
