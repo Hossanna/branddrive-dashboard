@@ -32,23 +32,23 @@ export const useStyle = makeStyles({
         backgroundColor: 'transparent',
     },
     profitTyp: {
-        fontSize: '.85em !important',
+        fontSize: '.8em !important',
         fontWeight: '600 !important',
         marginBottom: 1, 
     },
     netProfit: {
-        fontSize: '.85em !important',
+        fontSize: '.7em !important',
         marginBottom: '1%',
     },
     revenueMoney:{ 
-        fontSize: '1.3em !important',
+        fontSize: '1.1em !important',
         fontWeight: '600 !important',
         marginBottom: '1%', 
 
     },
     viewMore: {
         color:'orange',
-        fontSize:'.7em !important',
+        fontSize:'.6em !important',
         textDecoration: 'underline', 
         fontWeight: '600 !important',
         marginBottom: '3%',
@@ -69,12 +69,12 @@ export const useStyle = makeStyles({
         backgroundColor: 'transparent',
     },
     expenseTyp: {
-        fontSize: '.85em !important',
+        fontSize: '.8em !important',
         fontWeight: '600 !important',
         marginBottom: '3%', 
     },
     expenseMoney: {
-        fontSize: '1.3em !important',
+        fontSize: '1.2em !important',
         fontWeight: '600 !important', 
         marginBottom: '1%', 
     },
@@ -88,7 +88,7 @@ export const useStyle = makeStyles({
         justifyContent: 'space-between',
     },
     money: {
-        fontSize: '.85em  !important',
+        fontSize: '.8em  !important',
         fontWeight: '600 !important',
         display: 'flex',
         width: '65%',

@@ -10,6 +10,7 @@ export default function RightSide() {
             <Box className={classes.RightSide}>
 
                 <Box className="flex-column"> 
+                    
                                 <Box className={classes.pic} />
 
                                 <Box className={classes.profit}>
