@@ -6,9 +6,9 @@ export const useStyle = makeStyles({
         width: '2vw',
         height: '4vh',
         margin: '15% auto',
-        // marginBottom: '50% !important',
         borderRadius: '50%',
-        border: '1px solid #1565c0'
+        border: '1px solid transparent',
+        // #1565c0'
     },
     
     bigBox: {
@@ -20,7 +20,6 @@ export const useStyle = makeStyles({
         width: '4vw',
         display: 'flex',
         flexDirection: 'column',
-        // justifyContent: 'space-between',
     },
 
 });
