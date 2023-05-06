@@ -17,7 +17,7 @@ export default function Middle() {
             </Box>
 
             <Box className={classes.hq}>
-                <Typography>HQ</Typography>
+                <Typography className={classes.upgradeTyp}>HQ</Typography>
             </Box>
 
             <Box className={classes.upgrade}>
@@ -31,10 +31,10 @@ export default function Middle() {
 
         <Box className="flex"> 
                 <Box className={classes.ngn}>
-                    <Typography>NGN WALLET</Typography>
+                    <Typography className={classes.upgradeTyp}>NGN WALLET</Typography>
                 </Box>
                 <Box className={classes.usd}>
-                    <Typography>USD WALLET</Typography>
+                    <Typography className={classes.upgradeTyp}>USD WALLET</Typography>
                 </Box>
         </Box>
 
@@ -48,7 +48,7 @@ export default function Middle() {
                     Manage Wallet
                 </Typography>
 
-                    <Box className="flex"> 
+                    <Box className={classes.fundFlex}> 
                         <Box className={classes.fund}>
                             <Typography className={classes.typ}>
                                 Fund Account
@@ -100,7 +100,7 @@ export default function Middle() {
         </Box>
 
             <Box className={classes.hq}>
-                <Typography>HQ</Typography>
+                <Typography className={classes.upgradeTyp}>HQ</Typography>
             </Box>
 
             <Box className={classes.upgrade}>
