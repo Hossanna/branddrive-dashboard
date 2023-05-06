@@ -7,6 +7,12 @@ export const useStyle = makeStyles({
         width: '70%',
         padding: '2%',
     },
+    logo:{
+        width: '15vw',
+        height: '6vh',
+        float: 'right',
+        marginright: '-50% !important',
+    },
     pic: {
         width: '130%',
         height: 250,
@@ -52,6 +58,9 @@ export const useStyle = makeStyles({
         textDecoration: 'underline', 
         fontWeight: '600 !important',
         marginBottom: '3%',
+        '&:hover': {
+            cursor: 'pointer',
+            },
         
     },
     expense: {

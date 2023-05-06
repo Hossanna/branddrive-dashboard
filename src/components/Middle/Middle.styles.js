@@ -20,7 +20,9 @@ export const useStyle = makeStyles({
         color: '#1565c0',
         fontWeight: 600,
         fontSize: '.8em !important',
-
+        '&:hover': {
+            cursor: 'pointer',
+            },
     },
     hq:{
         width: 15,
@@ -46,7 +48,12 @@ export const useStyle = makeStyles({
         color: '#1565c0',
         backgroundColor: '#dcdcdc6b',
     },
-    upgradeTyp:{fontSize: '.8em !important',},
+    upgradeTyp:{
+        fontSize: '.8em !important',
+        '&:hover': {
+            cursor: 'pointer',
+        },
+    },
     ngn:{
         width: 150,
         height: 45,
@@ -93,6 +100,9 @@ export const useStyle = makeStyles({
         textDecoration: 'underline', 
         marginBottom: '2% !important', 
         fontWeight: '600 !important',
+        '&:hover': {
+            cursor: 'pointer',
+            },
     },
     fund:{
         width: 100,
@@ -103,6 +113,9 @@ export const useStyle = makeStyles({
         color: 'white',
         border: '1px solid transparent',
         backgroundColor: '#1565c0',
+        '&:hover': {
+            cursor: 'pointer',
+            },
     },
     typ:{
         fontSize: '.65em !important',
@@ -117,6 +130,9 @@ export const useStyle = makeStyles({
         color: '#1565c0',
         border: '1px dashed #80808047',
         backgroundColor: 'white',
+        '&:hover': {
+            cursor: 'pointer',
+            },
     },
     airtime:{
         width: 100,
@@ -128,6 +144,9 @@ export const useStyle = makeStyles({
         border: '1px dashed #80808047',
         backgroundColor: 'white',
         },
+        '&:hover': {
+            cursor: 'pointer',
+            },
     
     fundFlex:{
         display: 'flex',
@@ -195,6 +214,9 @@ export const useStyle = makeStyles({
         fontSize: '.95em !important',
         border: '1px dashed #80808047',
         backgroundColor: 'transparent',
+        '&:hover': {
+            cursor: 'pointer',
+            },
         },
     copyLink:{
         width: 70,
@@ -205,6 +227,9 @@ export const useStyle = makeStyles({
         padding: '4px 8px',
         textAlign: 'left',
         backgroundColor: 'orange',
+        '&:hover': {
+            cursor: 'pointer',
+            },
     },
 
 });

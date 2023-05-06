@@ -49,6 +49,11 @@ export const useStyle = makeStyles({
     },
     flex:{
         display: 'flex',
+        '&:hover': {
+            backgroundColor: '#dcdcdc6b',
+            cursor: 'pointer',
+            opacity: [0.9, 0.8, 0.7],
+                      },
     },
 
     // box: {

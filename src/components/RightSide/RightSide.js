@@ -10,7 +10,9 @@ export default function RightSide() {
             <Box className={classes.RightSide}>
 
                 <Box className="flex-column"> 
-                    
+                        <Box width='135%'>
+                            <img className={classes.logo} src="/branddrive logo.png" alt="branddrive" />
+                        </Box>
                                 <Box className={classes.pic} />
 
                                 <Box className={classes.profit}>
