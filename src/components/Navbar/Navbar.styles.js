@@ -19,7 +19,7 @@ export const useStyle = makeStyles({
         color: '#1565c0',
     },
     armstrong:{
-        padding: '15% 5%',
+        padding: '10% 5%',
         fontSize: '.8em !important',
         fontWeight: '600',
     },
