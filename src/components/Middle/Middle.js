@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useStyle } from './Middle.styles'
+import Chart from '../Chart/Chart'
 
 
 export default function Middle() {
@@ -135,7 +136,9 @@ export default function Middle() {
         </Box>
 
 
-        <Box className={classes.chart} />
+        <Box className={classes.chart}>
+            <Chart />
+        </Box>
         
     </Box>
   );

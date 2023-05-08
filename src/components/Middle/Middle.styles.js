@@ -197,9 +197,9 @@ export const useStyle = makeStyles({
         margin: '1%',
         borderRadius: '2px',
         border: '1px dashed #80808047',
-        backgroundImage: "url(/Screenshot.png)",
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat'
+        // backgroundImage: "url(/Screenshot.png)",
+        // backgroundSize: 'contain',
+        // backgroundRepeat: 'no-repeat'
     },
     branddrive:{
         display: 'flex',

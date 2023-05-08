@@ -2,6 +2,8 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useStyle } from './RightSide.styles'
+import BarChart from '../BarChart/BarChart'
+import PieChart from '../PieChart/PieChart'
 
 
 export default function RightSide() {
@@ -15,33 +17,45 @@ export default function RightSide() {
                         </Box>
                                 <Box className={classes.pic} />
 
-                                <Box className={classes.profit}>
-                                    <Typography className={classes.profitTyp}>
-                                            Profit & Loss
-                                    </Typography>
-                                    <Typography className={classes.netProfit}>
-                                        Net Profit for <br></br> the last month
-                                    </Typography>
-                                    <Typography className={classes.revenueMoney}>
-                                        N2,000,000.00
-                                    </Typography>
-                                    <Typography className={classes.viewMore}>
-                                        View More
-                                    </Typography>
+                                <Box className={classes.flexxx}>
+                                    <Box className={classes.profit}>
+                                        <Typography className={classes.profitTyp}>
+                                                Profit & Loss
+                                        </Typography>
+                                        <Typography className={classes.netProfit}>
+                                            Net Profit for <br></br> the last month
+                                        </Typography>
+                                        <Typography className={classes.revenueMoney}>
+                                            N2,000,000.00
+                                        </Typography>
+                                        <Typography className={classes.viewMore}>
+                                            View More
+                                        </Typography>
+                                    </Box>
+
+                                    <BarChart />
                                 </Box>
 
                                 <Box className={classes.expense}>
-                                    <Typography className={classes.expenseTyp}>
-                                            Expense Breakdown
-                                    </Typography>
-                                    
-                                    <Typography className={classes.expenseMoney}>
-                                        N3,500,000.00
-                                    </Typography>
+                                    <Box className={classes.expenseSmall}>
+                                        <Box className={classes.expenseSmaller}>
+                                            <Typography className={classes.expenseTyp}>
+                                                    Expense Breakdown
+                                            </Typography>
+                                            
+                                            <Typography className={classes.expenseMoney}>
+                                                N3,500,000.00
+                                            </Typography>
 
-                                    <Typography className={classes.viewMore}>
-                                        View More
-                                    </Typography>
+                                            <Typography className={classes.viewMore}>
+                                                View More
+                                            </Typography>
+                                        </Box>
+
+                                        {/* <PieChart /> */}
+
+                                    </Box>
+
 
                                     <Box className="flex-column">
 
