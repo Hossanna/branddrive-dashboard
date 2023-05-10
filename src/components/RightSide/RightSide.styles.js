@@ -65,6 +65,7 @@ export const useStyle = makeStyles({
         justifyContent: 'space-between',
         flexDirection: 'column',
         height: 105,
+        marginRight: 15,
     },
     expense: {
         display: 'flex',

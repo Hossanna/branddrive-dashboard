@@ -2,7 +2,7 @@ export const data = [
  
   {
     name: 'February',
-    uv: 4000000,
-    pv: 6000000,
+    uv: 40000,
+    pv: 60000,
   },
   ];

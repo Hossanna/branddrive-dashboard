@@ -52,7 +52,7 @@ export default function RightSide() {
                                             </Typography>
                                         </Box>
 
-                                        {/* <PieChart /> */}
+                                        <PieChart />
 
                                     </Box>
 
