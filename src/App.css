@@ -1,12 +1,12 @@
 .App {
   text-align: center;
   display: flex;
-  
 }
 
 .flex{
   display: flex;
 }
+
 .flex-column{
   display: flex;
   flex-direction: column;

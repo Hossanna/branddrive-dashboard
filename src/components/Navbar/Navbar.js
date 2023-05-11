@@ -77,7 +77,7 @@ export default function BasicList() {
               <Typography className={classes.bigBox}>MORE</Typography>
             </Box>
             <Box className={classes.flex}>
-              <img className={classes.icons} src="/icons/Payment Pages Icon.svg" alt="Payment" />
+              <img className={classes.payment} src="/icons/Payment Pages Icon.svg" alt="Payment" />
               <Typography className={classes.smallBox}>Payment Pages</Typography>
             </Box>
             <Box className={classes.flex}>

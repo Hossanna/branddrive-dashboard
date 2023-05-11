@@ -1,10 +1,8 @@
-import { useStyle } from './Chart.styles'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { data } from './constants'
 
 
 const Chart = () => {
-  const classes = useStyle();
 
   return (
     <ResponsiveContainer width="100%" height="100%">

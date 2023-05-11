@@ -1,17 +1,21 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar/Sidebar'
 import Navbar from './components/Navbar/Navbar'
-import Middle from './components/Middle/Middle'
-import RightSide from './components/RightSide/RightSide'
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-          <Sidebar />
-          <Navbar />
-          <Middle />
-          <RightSide />
-    </div>
+    <BrowserRouter basename='/dashboard'>
+        <div className="App">
+              <Sidebar />
+              <Navbar />
+
+              <Routes>
+                <Route path="/" element={<Dashboard />} />
+              </Routes>
+        </div>
+    </BrowserRouter>
   );
 }
 

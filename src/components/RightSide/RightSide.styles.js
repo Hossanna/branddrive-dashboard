@@ -28,7 +28,7 @@ export const useStyle = makeStyles({
         flexDirection: 'column',
         justifyContent: 'space-between',
         textAlign: 'left',
-        color: '#1565c0', 
+        color: '#011B60', 
     },
     profitTyp: {
         fontSize: '.8em !important',
@@ -70,7 +70,7 @@ export const useStyle = makeStyles({
     expense: {
         display: 'flex',
         flexDirection: 'column',
-        color: '#1565c0',
+        color: '#011B60',
         width: '110%',
         height: 205,
         marginTop: '10%',

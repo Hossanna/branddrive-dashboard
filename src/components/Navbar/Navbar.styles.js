@@ -7,19 +7,25 @@ export const useStyle = makeStyles({
         height: '2vh',
         padding: '6% 5%',
 
-        // margin: '15% auto',
-        // borderRadius: '50%',
-        // border: '1px solid #1565c0'
+    },
+    payment: {
+        width: '1.4vw',
+        height: '2vh',
+        padding: '6% 5%',
+
     },
     
     biggerBox: {
-        width: '100%', 
-        maxWidth: 150, 
+        // width: '100%', 
+        width: 150, 
         bgcolor: 'background.paper', 
-        color: '#1565c0',
+        color: '#011B60',
+        height: '100vh',
+        overflow: 'hidden',
+        position: 'relative',
     },
     armstrong:{
-        padding: '10% 5%',
+        padding: '10% 2%',
         fontSize: '.8em !important',
         fontWeight: '600',
     },
@@ -56,12 +62,5 @@ export const useStyle = makeStyles({
                       },
     },
 
-    // box: {
-    //     height: '70vh',
-    //     width: '4vw',
-    //     display: 'flex',
-    //     flexDirection: 'column',
-    //     // justifyContent: 'space-between',
-    // },
 
 });

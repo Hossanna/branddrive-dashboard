@@ -1,10 +1,8 @@
-import { useStyle } from './BarChart.styles'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { data } from './constants'
 
 
 const Chart = () => {
-  const classes = useStyle();
 
   return (
     <ResponsiveContainer width="100%" >
