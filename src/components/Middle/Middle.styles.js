@@ -7,6 +7,7 @@ export const useStyle = makeStyles({
         width: '100%',
         padding: '2%',
         paddingRight: 0,
+        marginLeft: '18vw',
     },
     lagos: {
         width: 160,

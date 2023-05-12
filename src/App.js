@@ -1,15 +1,14 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar/Sidebar'
-import Navbar from './components/Navbar/Navbar'
+import Sidebar from './components/Sidebar/Sidebar';
 import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <BrowserRouter basename='/dashboard'>
+    <BrowserRouter>
         <div className="App">
-              <Sidebar />
-              <Navbar />
+                <Sidebar />
+                
 
               <Routes>
                 <Route path="/" element={<Dashboard />} />

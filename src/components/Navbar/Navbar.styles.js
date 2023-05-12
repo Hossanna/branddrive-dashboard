@@ -23,6 +23,7 @@ export const useStyle = makeStyles({
         height: '100vh',
         overflow: 'hidden',
         position: 'relative',
+        marginLeft: '4vw',
     },
     armstrong:{
         padding: '10% 2%',
